@@ -1,5 +1,5 @@
 class Osnova:
-    def init(self, name=None, last_name=None, birth_year=None):
+    def __init__(self, name=None, last_name=None, birth_year=None):
         self.name = name
         self.last_name = last_name
         self.birth_year = birth_year
@@ -18,4 +18,5 @@ print("Вас звуть: ", person.full_name())
 print("Ваш вік: ", person.rozrahynok_age(2025))
 person_default = Osnova()
 print(person_default.rozrahynok_age(2025))
+
 print(person_default.full_name())
