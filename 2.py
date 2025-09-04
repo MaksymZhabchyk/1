@@ -37,13 +37,13 @@ class DochClass(Osnova):
         if not self.name:
             return "Привіт!"
         if 6 <= hour < 12:
-            return f"Доброго ранку, {self.name}!"
+            return f"Доброго ранку, {self.name}"
         elif 12 <= hour < 18:
-            return f"Доброго дня, {self.name}!"
+            return f"Доброго дня, {self.name}"
         elif 18 <= hour < 22:
-            return f"Доброго вечора, {self.name}!"
+            return f"Доброго вечора, {self.name}"
         else:
-            return f"Доброї ночі, {self.name}!"
+            return f"Доброї ночі, {self.name}"
 
     def additional_info(self):
         return (
@@ -65,4 +65,5 @@ print("Ваш вік: ", person.rozrahynok_age(2025))
 print(person.age_to_adulthood(2025))
 print(person.greeting(10))
 print(person.additional_info())
+
 
