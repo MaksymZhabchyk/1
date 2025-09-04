@@ -65,3 +65,4 @@ print("Ваш вік: ", person.rozrahynok_age(2025))
 print(person.age_to_adulthood(2025))
 print(person.greeting(10))
 print(person.additional_info())
+
